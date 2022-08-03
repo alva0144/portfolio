@@ -1,0 +1,23 @@
+svg {
+    height: 12.5em;
+}
+
+@font-face {
+    font-family: "delicioussans";
+    src: url("/fonts/delicious-sans-font.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "dinnext";
+    src: url("/fonts/din-next-pro-bold-regular.otf") format("opentype");
+}
+
+h1{
+    font-family: delicioussans;
+}
+
+nav a{
+    font-family: dinnext;
+    text-decoration: none;
+    color: ;
+}
