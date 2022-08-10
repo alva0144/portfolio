@@ -156,4 +156,21 @@ text-align: center;
     border-radius: 3px;
 }
 
+.placeholder{
+    
+}
+
+.submit{
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    background-color: #A3C7C3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'dinbold';
+    font-size: 1.3rem;
+}
+
 
