@@ -1,23 +1,159 @@
-svg {
-    height: 12.5em;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+@font-face {
+    font-family: delicious-sans-font;
+    src: url(/fonts/delicious-sans-font.otf) format("opentype");
 }
 
 @font-face {
-    font-family: "delicioussans";
-    src: url("/fonts/delicious-sans-font.otf") format("opentype");
+    font-family: dinnext;
+    src:url(/fonts/DINNextLTPro-Regular.otf) format("opentype");
 }
 
 @font-face {
-    font-family: "dinnext";
-    src: url("/fonts/din-next-pro-bold-regular.otf") format("opentype");
+    font-family: dinbold;
+    src:url(/fonts/din-next-pro-bold.otf) format("opentype");
 }
 
 h1{
-    font-family: delicioussans;
+    font-family: 'delicious-sans-font';
+    letter-spacing: 1px;
+    color: #e0e0e0;
+
 }
 
 nav a{
-    font-family: dinnext;
+    font-family: "dinnext";
     text-decoration: none;
-    color: ;
+    list-style: none;
 }
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-media-icons a i{
+    padding: 1rem;
+    color: #939393;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #939393;
+}
+
+.footer-info{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footermenu{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*styles for about page*/
+
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+h2{
+    font-family: 'delicious-sans-font';
+    letter-spacing: 1px;
+    color: #FF9D45;
+    text-align: center;
+}
+
+.about .caption{
+    font-family: 'dinnext';
+}
+
+.about{
+    font-family: 'dinnext';
+}
+
+.about .caption{
+    font-size: 1rem;
+    color: #B4B4B4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about .text-1{
+    font-size: 1.2rem;
+    color: #B4B4B4;
+    text-align: center;
+}
+
+.about .text-2{
+    display: none;
+}
+
+/*styles for about forms*/
+
+p{font-size: 1.2rem;
+color: #B4B4B4;
+text-align: center;
+}
+
+.form{
+    width: 70%;
+    margin: 0 auto ;
+    border: #DBDBDB solid 1px;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #939393;
+}
+
+
+#fullname{
+    padding: 0.5rem;
+    border: #DBDBDB solid 1px;
+    border-radius: 3px;
+}
+
+#email{
+    padding: 0.5rem;
+    border: #DBDBDB solid 1px;
+    border-radius: 3px;
+}
+
+#message{
+    padding: 0.5rem;
+    border: #DBDBDB solid 1px;
+    border-radius: 3px;
+}
+
+
