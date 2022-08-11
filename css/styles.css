@@ -7,7 +7,6 @@ body {
     margin: 0 auto;
 }
 
-
 @font-face {
     font-family: delicious-sans-font;
     src: url(/fonts/delicious-sans-font.otf) format("opentype");
@@ -118,7 +117,13 @@ h2{
     display: none;
 }
 
-/*styles for about forms*/
+/**styles for contact page**/
+
+.letstalk h1{
+    font-family: 'delicious-sans-font';
+    letter-spacing: 1px;
+    color: #A3C7C3;;
+}
 
 p{font-size: 1.2rem;
 color: #B4B4B4;
@@ -150,14 +155,20 @@ text-align: center;
     border-radius: 3px;
 }
 
+#phone{
+    padding: 0.5rem;
+    border: #DBDBDB solid 1px;
+    border-radius: 3px;
+}
+
 #message{
     padding: 0.5rem;
     border: #DBDBDB solid 1px;
     border-radius: 3px;
 }
 
-.placeholder{
-    
+::placeholder{
+color: #DBDBDB;
 }
 
 .submit{
@@ -172,5 +183,19 @@ text-align: center;
     font-family: 'dinbold';
     font-size: 1.3rem;
 }
+
+/*portfolio project styles*/
+
+.luchatitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #939393;
+}
+
+.luchatext{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
