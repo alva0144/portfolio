@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
 }
@@ -14,28 +13,28 @@ body {
 
 @font-face {
     font-family: dinnext;
-    src:url(/fonts/DINNextLTPro-Regular.otf) format("opentype");
+    src: url(/fonts/DINNextLTPro-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: dinbold;
-    src:url(/fonts/din-next-pro-bold.otf) format("opentype");
+    src: url(/fonts/din-next-pro-bold.otf) format("opentype");
 }
 
-h1{
+h1 {
     font-family: 'delicious-sans-font';
     letter-spacing: 1px;
     color: #e0e0e0;
 
 }
 
-nav a{
+nav a {
     font-family: "dinnext";
     text-decoration: none;
     list-style: none;
 }
 
-.social-media-icons{
+.social-media-icons {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,96 +42,98 @@ nav a{
 
 }
 
-.social-media-icons a i{
+.social-media-icons a i {
     padding: 1rem;
     color: #939393;
     font-size: 1.2rem;
     margin-top: 1rem;
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #F2F2F2;
     padding: 1rem;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     list-style-type: none;
     color: #939393;
 }
 
-.footer-info{
-    display:flex;
+.footer-info {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-.footermenu{
-    display:flex;
+.footermenu {
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
 /*styles for about page*/
 
-h1{
+h1 {
     text-align: center;
     padding: 1rem;
 }
 
 
-h2{
+h2 {
     font-family: 'delicious-sans-font';
     letter-spacing: 1px;
     color: #FF9D45;
     text-align: center;
 }
 
-.about .caption{
+.about .caption {
     font-family: 'dinnext';
 }
 
-.about{
+.about {
     font-family: 'dinnext';
 }
 
-.about .caption{
+.about .caption {
     font-size: 1rem;
     color: #B4B4B4;
     text-align: center;
     padding: 2rem;
 }
 
-.about .text-1{
+.about .text-1 {
     font-size: 1.2rem;
     color: #B4B4B4;
     text-align: center;
 }
 
-.about .text-2{
+.about .text-2 {
     display: none;
 }
 
 /**styles for contact page**/
 
-.letstalk h1{
+.letstalk h1 {
     font-family: 'delicious-sans-font';
     letter-spacing: 1px;
-    color: #A3C7C3;;
+    color: #A3C7C3;
+    ;
 }
 
-p{font-size: 1.2rem;
-color: #B4B4B4;
-text-align: center;
+p {
+    font-size: 1.2rem;
+    color: #B4B4B4;
+    text-align: center;
 }
 
-.form{
+.form {
     width: 70%;
-    margin: 0 auto ;
+    margin: 0 auto;
     border: #DBDBDB solid 1px;
     border-radius: 1rem;
     padding: 2rem;
@@ -143,35 +144,35 @@ text-align: center;
 }
 
 
-#fullname{
+#fullname {
     padding: 0.5rem;
     border: #DBDBDB solid 1px;
     border-radius: 3px;
 }
 
-#email{
+#email {
     padding: 0.5rem;
     border: #DBDBDB solid 1px;
     border-radius: 3px;
 }
 
-#phone{
+#phone {
     padding: 0.5rem;
     border: #DBDBDB solid 1px;
     border-radius: 3px;
 }
 
-#message{
+#message {
     padding: 0.5rem;
     border: #DBDBDB solid 1px;
     border-radius: 3px;
 }
 
-::placeholder{
-color: #DBDBDB;
+::placeholder {
+    color: #DBDBDB;
 }
 
-.submit{
+.submit {
     margin: 0 auto;
     width: 200px;
     padding-top: 0.7rem;
@@ -187,20 +188,16 @@ color: #DBDBDB;
 
 /***portfolio project styles***/
 
-header img{
+header img {
     padding-bottom: 2rem;
 }
 
-.luchatitle{
+.luchatitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #939393;
 }
 
-.luchatext{
+.luchatext {
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
