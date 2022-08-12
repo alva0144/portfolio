@@ -18,70 +18,64 @@
 </head>
 
 <body>
-
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light light-blue lighten-4 justify-content-around">
-
-        <!--I included the logo as an svg and set its width -->
-        <a href="index.html">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70" viewBox="0 0 161.07 160.55"
-                style="enable-background:new 0 0 161.07 160.55;" xml:space="preserve">
-                <style type="text/css">
-                    .st0 {
-                        fill: #FF9D45;
-                    }
-
-                    .st1 {
-                        fill: #DD0A46;
-                    }
-                </style>
-                <path class="st0" d="M118.78,14.75C82.85,4.71,22.6,9.47,17.85,41.71C13.09,73.94,60.65,75,68.58,53.86
-   c1.83-4.89,2.52-8.82,2.49-11.97c-0.11-11.47,16.68-13.36,18.54-2.05c0.04,0.26,0.08,0.53,0.11,0.8
-   C91.3,55.97,77.04,60.2,72.28,62.32c-4.76,2.11-50.2,7.4-59.72,38.05c-9.51,30.65,19.74,56.1,45.98,50.2
-   c18.23-4.1,35.93-14.8,35.93-14.8s7.19,15.01,30.65,15.01c6.13,0,6.13,0.09,15.07,0.09c6.87,0,12.41-5.63,12.41-12.5V58.62
-   C152.6,58.62,154.72,24.8,118.78,14.75z" />
-                <path class="st1" d="M77.46,97.41c-17.48,9.38-18.39-7.75-28.18-15.9C39.49,73.36,27.67,86,29.3,103.12
-   c1.63,17.12,12.23,29.35,24.87,30.17c11.59,0.75,16.38-16.9,21.75-13.03c1.04,0.75,1.54,2.03,1.53,3.31
-   c-0.13,18.39-21.52,26.77-28.99,27.66c-10.92,1.3-39.55-2.85-39.55-41.99c0-39.14,35.88-38.32,35.88-38.32
-   C67.65,69.9,94.94,88.03,77.46,97.41z" />
-            </svg></a>
-
-        <!-- Navbar brand 
-    <?xml version="1.0" encoding="utf-8"?>-->
-
-
-
+    <ul class="skip-links">
+        <li><a href="#nav">skip to main nav</a>
+        <li><a href="#content">skip to main content</a>
+        </li>
+      </ul>
+      <!--Navbar-->
+      <nav id="nav" aria-label="main-nav"
+        class="navbar navbar-expand-md navbar-light light-blue lighten-4 justify-content-around">
+    
+        <!-- Navbar brand-->
+        <svg class="ml-3 ms-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70" viewBox="0 0 161.07 160.55"
+          style="enable-background:new 0 0 161.07 160.55;" xml:space="preserve">
+          <style type="text/css">
+            .st0 {
+              fill: #FF9D45;
+            }
+    
+            .st1 {
+              fill: #DD0A46;
+            }
+          </style>
+          <path class="st0" d="M118.78,14.75C82.85,4.71,22.6,9.47,17.85,41.71C13.09,73.94,60.65,75,68.58,53.86
+            c1.83-4.89,2.52-8.82,2.49-11.97c-0.11-11.47,16.68-13.36,18.54-2.05c0.04,0.26,0.08,0.53,0.11,0.8
+            C91.3,55.97,77.04,60.2,72.28,62.32c-4.76,2.11-50.2,7.4-59.72,38.05c-9.51,30.65,19.74,56.1,45.98,50.2
+            c18.23-4.1,35.93-14.8,35.93-14.8s7.19,15.01,30.65,15.01c6.13,0,6.13,0.09,15.07,0.09c6.87,0,12.41-5.63,12.41-12.5V58.62
+            C152.6,58.62,154.72,24.8,118.78,14.75z" />
+          <path class="st1" d="M77.46,97.41c-17.48,9.38-18.39-7.75-28.18-15.9C39.49,73.36,27.67,86,29.3,103.12
+            c1.63,17.12,12.23,29.35,24.87,30.17c11.59,0.75,16.38-16.9,21.75-13.03c1.04,0.75,1.54,2.03,1.53,3.31
+            c-0.13,18.39-21.52,26.77-28.99,27.66c-10.92,1.3-39.55-2.85-39.55-41.99c0-39.14,35.88-38.32,35.88-38.32
+            C67.65,69.9,94.94,88.03,77.46,97.41z" />
+        </svg>
+    
         <!-- Collapse button -->
-        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-            aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                    class="fas fa-bars fa-1x"></i></span></button>
-
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+    
         <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Let's Talk</a>
-                </li>
-            </ul>
-            <!-- Links -->
-
+          <!-- Links -->
+          <ul class="navbar-nav text-center ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Let's Talk</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-magnifying-glass pt-2 ms-2 me-5"></i>
+            </li>
+          </ul>
         </div>
-        <!-- Collapsible content -->
+      </nav>
 
-        <i class="fa-solid fa-magnifying-glass"></i>
-
-    </nav>
-    <!--/.Navbar-->
 
     <!--Header containing main banner-->
 
@@ -102,7 +96,19 @@
             each other.</p>
     </section>
 
+    <picture>
+        <source srcset="images/225_x_125.png 1x,
+        images/450_x_251.png 2x"
+        media="(min-width:480px)">
 
+        <source srcset="images/900.png 1x"
+        media="(max-width:480px)">
+
+
+        
+
+        <img src="images/450_x_251.png" alt="kv.banner">
+    </picture>
 
 
     <!--social media icons -->

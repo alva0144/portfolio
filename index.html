@@ -13,16 +13,19 @@
 </head>
 
 <body>
-
+  <ul class="skip-links">
+    <li><a href="#nav">skip to main nav</a>
+    <li><a href="#content">skip to main content</a>
+    </li>
+  </ul>
   <!--Navbar-->
-  <nav class="navbar  navbar-expand-md navbar-light light-blue lighten-4 justify-content-around">
+  <nav id="nav" aria-label="main-nav"
+    class="navbar navbar-expand-md navbar-light light-blue lighten-4 justify-content-around">
 
-    <!-- Navbar brand 
-    <?xml version="1.0" encoding="utf-8"?>-->
-    <!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      x="0px" y="0px" width="70" viewBox="0 0 161.07 160.55" style="enable-background:new 0 0 161.07 160.55;"
-      xml:space="preserve">
+    <!-- Navbar brand-->
+    <svg class="ml-3 ms-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70" viewBox="0 0 161.07 160.55"
+      style="enable-background:new 0 0 161.07 160.55;" xml:space="preserve">
       <style type="text/css">
         .st0 {
           fill: #FF9D45;
@@ -44,15 +47,14 @@
     </svg>
 
     <!-- Collapse button -->
-    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-      data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-      aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
 
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
       <!-- Links -->
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav text-center ms-auto">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -62,32 +64,35 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Let's Talk</a>
         </li>
+        <li>
+          <i class="fa-solid fa-magnifying-glass pt-2 ms-2 me-5"></i>
+        </li>
       </ul>
-      <!-- Links -->
-
     </div>
-    <!-- Collapsible content -->
-
-    <i class="fa-solid fa-magnifying-glass"></i>
-
   </nav>
-  <!--/.Navbar-->
 
   <h1 class="display-6 fw-bold text-center">
     PROJECTS
   </h1>
 
-  <section class="container-lg">
-    <div class="row">
-      <img src="images/thumbnail-roche.jpg" class="col-6" alt="thumbnail-roche">
-      <img src="images/thumbnail-citi.jpg" class="col-6" alt="thumbnail-citi">
-      <img src="images/thumbnail-cloud.jpg" class="col-6 order-2" alt="thumbnail-cloud">
-      <img src="images/thumbnail-kredo.jpg" class="col-6" alt="thumbnail-kredo">
-      <img src="images/thumbnail-topo.jpg" class="col-6" alt="thumbnail-topo">
+  <div class="gallery row row-cols-2 row-cols-md-3 mx-auto">
+    <div class="col">
+      <div class="row row-cols-1">
+        <div><img class="col img-fluid mb-4" src="images/thumbnail-roche.jpg" alt="thumbnail-roche"></div>
+        <div><img class="col img-fluid" src="images/thumbnail-citi.jpg" alt="thumbnail-citi"></div>
+      </div>
     </div>
-  </section>
+    <div><img src="images/thumbnail-cloud.jpg" alt="thumbnail-cloud" class="col img-fluid pb-4">
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="row row-cols-2 row-cols-md-1">
+        <div><img class="col img-fluid mb-4" src="images/thumbnail-kredo.jpg" alt="thumbnail-kredo"></div>
+        <div><img src="images/thumbnail-topo.jpg" alt="thumbnail-topo" class="col img-fluid"></div>
+      </div>
+    </div>
+  </div>
 
-  <section class="social-media-icons">
+  <section role="main" class="social-media-icons">
     <a href="https://www.behance.net/mariaremolacha">
       <i class="fa-brands fa-behance"></i></a>
     <a href="https://www.facebook.com/Makiavela/">
